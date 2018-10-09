@@ -1,0 +1,65 @@
+/**
+
+  Use animations here. Useful resources on http://docs.codacloud.net
+
+**/
+
+
+.head {
+  animation-name: headHi;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0;
+}
+
+@keyframes headHi {
+  from {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(160deg);
+  }
+}
+
+.left.hand {
+  animation-name: lefthandHi;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 100% 0;
+}
+
+@keyframes lefthandHi {
+  from {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(160deg);
+  }
+}
+
+.body {
+  /* TODO */
+  
+}
+
+.left.hand {
+  /* TODO */
+
+}
+
+.right.hand {
+  /* TODO */
+
+}
+
+.left.foot {
+  /* TODO */
+
+}
+
+.right.foot {
+  /* TODO */
+
+}
